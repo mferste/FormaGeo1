@@ -7,7 +7,7 @@ public class TrianguloTest {
 
     @Test
     public void testTrianguloEquilatero() {
-        assertEquals("Triângulo Equilátero", Triangulo.classificarTriangulo(5, 5, 5));
+        assertEquals("Triângulo Equilátero ", Triangulo.classificarTriangulo(5, 5, 5));
     }
 
     @Test
