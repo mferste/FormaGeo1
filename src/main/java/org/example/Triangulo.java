@@ -4,7 +4,7 @@ public class Triangulo {
 
     public static String classificarTriangulo(int lado1, int lado2, int lado3) {
         // Verifica se algum dos lados é inválido
-        if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) {
+        if (lado1 == 0 || lado2 <= 0 || lado3 <= 0) {
             return "Erro: Lado inválido";
         }
 
